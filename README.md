@@ -2,17 +2,10 @@
 
 A React-based dashboard for managing marketing campaigns. The application allows users to create, update, delete, and view campaigns through a simple and responsive interface.
 
-## Project Setup & Installation
-
-### Prerequisites
-
-- Node.js (v18 or later)
-- npm
-
 ### Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/hishamkamell/Campaign-Dashboard
 cd campaign-dashboard
 npm install
 ```
