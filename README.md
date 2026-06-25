@@ -37,16 +37,6 @@ http://localhost:5173
 - Tailwind CSS
 - Vite
 
-## Project Structure
-
-```text
-src/
-├── components/
-├── services/
-├── App.jsx
-└── main.jsx
-```
-
 ### Structure Overview
 
 - **components/**: Reusable UI components.
