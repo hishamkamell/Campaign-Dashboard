@@ -1,16 +1,64 @@
-# React + Vite
+# Campaign Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based dashboard for managing marketing campaigns. The application allows users to create, update, delete, and view campaigns through a simple and responsive interface.
 
-Currently, two official plugins are available:
+## Project Setup & Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Prerequisites
 
-## React Compiler
+- Node.js (v18 or later)
+- npm
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Installation
 
-## Expanding the ESLint configuration
+```bash
+git clone <repository-url>
+cd campaign-dashboard
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Run the Application
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+## Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- Axios
+- Tailwind CSS
+- Vite
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── services/
+├── App.jsx
+└── main.jsx
+```
+
+### Structure Overview
+
+- **components/**: Reusable UI components.
+- **services/**: API-related functions and mock API logic.
+- **App.jsx**: Main application component.
+- **main.jsx**: Application entry point.
+
+## Assumptions & Development Decisions
+
+- A mock API layer was implemented to simulate backend operations.
+- Axios was used to handle API requests.
+- Tailwind CSS was used for styling and responsive layouts.
+- Basic form validation was implemented before creating or updating campaigns.
+- Component-based architecture was adopted for maintainability and scalability.
+- Loading and empty states were added to improve user experience.
