@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Summer Apparel Sale 2026",
+    "status": "Active",
+    "leads": 1250
+  },
+  {
+    "id": "2",
+    "name": "Black Friday Tech Warm-up",
+    "status": "Paused",
+    "leads": 840
+  },
+  {
+    "id": "3",
+    "name": "SaaS Platform Launch",
+    "status": "Completed",
+    "leads": 3500
+  },
+  {
+    "id": "4",
+    "name": "Back to School Promo",
+    "status": "Active",
+    "leads": 910
+  },
+  {
+    "id": "5",
+    "name": "Ramadan Kareem Mubarak Food Drive",
+    "status": "Completed",
+    "leads": 5200
+  },
+  {
+    "id": "6",
+    "name": "Fitness App New Year Challenge",
+    "status": "Paused",
+    "leads": 310
+  },
+  {
+    "id": "7",
+    "name": "E-book Lead Generation",
+    "status": "Active",
+    "leads": 1750
+  },
+  {
+    "id": "8",
+    "name": "Real Estate Webinar Registration",
+    "status": "Active",
+    "leads": 620
+  },
+  {
+    "id": "9",
+    "name": "Crypto Wallet Beta Access",
+    "status": "Paused",
+    "leads": 0
+  },
+  {
+    "id": "10",
+    "name": "Winter Clearance Campaign",
+    "status": "Completed",
+    "leads": 2890
+  }
+]
